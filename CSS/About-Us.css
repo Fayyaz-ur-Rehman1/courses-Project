@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 5px  black; 
+}
+.logo {
+    width: 150px;
+    margin: 10px;
+}
+.header-links a {
+    text-decoration: none;
+    color: black;
+
+    margin: 20px;
+    margin-left: 50px;
+    padding: 5px;
+    font-size: 20px;
+}
+.header-links {
+    margin-right: 100px;
+}
+.header-links :hover {
+    color: crimson;
+    text-decoration: underline;
+}

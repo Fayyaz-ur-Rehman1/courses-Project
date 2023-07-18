@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1619995745882-f4128ac82ad6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 15px black;
+}
+
+.inner1 img {
+    border-radius: 20px;
+}
+
+.logo {
+    width: 150px;
+    margin: 10px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: black;
+
+    margin: 20px;
+    margin-left: 50px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.header-links {
+    margin-right: 100px;
+}
+
+.header-links :hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+.maindiv {
+    display: flex;
+}
+
+.inner2 {
+    display: flex;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: rgba(220, 218, 218, 0.134);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    padding: 50px;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+}
+
+.maindiv i {
+    color: gold;
+}
+
+.inner2 {
+    margin-left: 20px;
+    margin-top: -22px;
+}
+
+.para {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.icon {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.price {
+    margin-left: 50px;
+    margin-bottom: -130px;
+}
+
+.price button {
+    margin-top: 10px;
+    border: 1px solid white;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(221, 211, 211);
+    width: 100px;
+}
+
+.price button:hover {
+    transition: 0.3s ease-in-out;
+    box-shadow: none;
+    border: 1px solid rgb(132, 130, 130);
+}
